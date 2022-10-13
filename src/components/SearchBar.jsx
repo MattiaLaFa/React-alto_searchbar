@@ -49,8 +49,7 @@ const SearchBar = () => {
 
                     <div className="select">
                         <p>select user id</p>
-                        <select className="select-input" name="inputId" id="inputId" aria-label="Filter Countries By user id"
-                         onChange={(e) => setFilter(e.target.value)}>
+                        <select className="select-input" name="inputId" id="inputId" value="false" onChange={(e) => setFilter(e.target.value)}>
                             <option value="All" selected> All</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
